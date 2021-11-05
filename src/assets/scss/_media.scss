@@ -1,0 +1,12 @@
+@media only screen and (max-width: 1600px) and (min-width: 400px){
+  html{
+    font-size: 13px;
+    input{
+      font-size: 13px;
+    }
+  }
+
+  .MuiSelect-icon{
+    top: calc(50% - 9px) !important;
+  }
+}

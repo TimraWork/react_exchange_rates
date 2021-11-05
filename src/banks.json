@@ -1,0 +1,253 @@
+[
+    {
+       "ID":1,
+       "SNAME":"ФРБ \"Капитал 24\"",
+       "SITEID":1158
+    },
+    {
+       "ID":125,
+       "SNAME":"Minibank \"SHO'RCHI\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":126,
+       "SNAME":"Minibank \"DENOV\" ",
+       "SITEID":1158
+    },
+    {
+       "   ":4,
+       "ID":127,
+       "SNAME":"Minibank \"TO'RTKO'L YANGIBOZOR\"",
+       "SITEID":1158
+    },
+    {
+       "   ":5,
+       "ID":128,
+       "SNAME":"Minibank \"BERUNIY\"",
+       "SITEID":1158
+    },
+    {
+       "   ":6,
+       "ID":129,
+       "SNAME":"Minibank \"MANG'IT\"",
+       "SITEID":1158
+    },
+    {
+       "   ":7,
+       "ID":130,
+       "SNAME":"Minibank \"KARVON\"",
+       "SITEID":1158
+    },
+    {
+       "   ":8,
+       "ID":131,
+       "SNAME":"Minibank \"LYABI XAVUZ\"",
+       "SITEID":1158
+    },
+    {
+       "   ":9,
+       "ID":132,
+       "SNAME":"Minibank \"TO'QIMACHI\"",
+       "SITEID":1158
+    },
+    {
+       "   ":10,
+       "ID":134,
+       "SNAME":"Minibank \"MARGILON\"",
+       "SITEID":1158
+    },
+    {
+       "ID":137,
+       "SNAME":"Minibank \"Gold Centre\"",
+       "SITEID":1158
+    },
+    {
+       "ID":136,
+       "SNAME":"Smartbank \"URGANCH\"",
+       "SITEID":1158
+    },
+    {
+       "ID":1061,
+       "SNAME":"САМАРКАНДСКИЙ ФИЛИАЛ",
+       "SITEID":1061
+    },
+    {
+       "ID":1082,
+       "SNAME":"БУХАРСКИЙ ФИЛИАЛ",
+       "SITEID":1082
+    },
+    {
+       "ID":101,
+       "SNAME":"Minibank \"Ахмад Дониш\"",
+       "SITEID":1158
+    },
+    {
+       "ID":103,
+       "SNAME":"Smartbank \"Яшнобод\"",
+       "SITEID":1158
+    },
+    {
+       "ID":1033,
+       "SNAME":"ФИЛИАЛ ЧОРСУ",
+       "SITEID":1033
+    },
+    {
+       "ID":102,
+       "SNAME":"Smartbank \"ANDIJAN\"",
+       "SITEID":1158
+    },
+    {
+       "ID":100,
+       "SNAME":"Smartbank \"Марказий амалиет\"",
+       "SITEID":1158
+    },
+    {
+       "ID":104,
+       "SNAME":"Smartbank \"Чорсу\"",
+       "SITEID":1158
+    },
+    {
+       "ID":105,
+       "SNAME":"Smartbank \"Sergeli\"",
+       "SITEID":1158
+    },
+    {
+       "ID":107,
+       "SNAME":"Smartbank \"Mirzo Ulug'bek\"",
+       "SITEID":1158
+    },
+    {
+       "ID":106,
+       "SNAME":"Smartbank \"TOSHKENT SHAHAR\"",
+       "SITEID":1158
+    },
+    {
+       "ID":108,
+       "SNAME":"Smartbank \"AMALIYOT\"",
+       "SITEID":1158
+    },
+    {
+       "ID":109,
+       "SNAME":"Smartbank \"NAMANGAN\"",
+       "SITEID":1158
+    },
+    {
+       "ID":110,
+       "SNAME":"Smartbank \"KOKAND\"",
+       "SITEID":1158
+    },
+    {
+       "ID":111,
+       "SNAME":"Smartbank \"FERGANA\"",
+       "SITEID":1158
+    },
+    {
+       "ID":112,
+       "SNAME":"Smartbank \"TERMEZ\"",
+       "SITEID":1158
+    },
+    {
+       "ID":113,
+       "SNAME":"Smartbank \"SAMARKAND\"",
+       "SITEID":1158
+    },
+    {
+       "ID":114,
+       "SNAME":"Smartbank \"BUXARA\"",
+       "SITEID":1158
+    },
+    {
+       "ID":115,
+       "SNAME":"Smartbank \"NUKUS\"",
+       "SITEID":1158
+    },
+    {
+       "ID":119,
+       "SNAME":"Minibank \"QUVA\"",
+       "SITEID":1158
+    },
+    {
+       "ID":120,
+       "SNAME":"Minibank \"VOKZAL\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":121,
+       "SNAME":"Minibank \"DAGBITSKAYA\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":122,
+       "SNAME":"Minibank \"KRITIY RINOK\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":123,
+       "SNAME":"Minibank \"MIKROROYON\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":124,
+       "SNAME":"Minibank \"KATTAQURG'ON\" ",
+       "SITEID":1158
+    },
+    {
+       "ID":133,
+       "SNAME":"Minibank \"G'IJDUVON\"",
+       "SITEID":1158
+    },
+    {
+       "ID":1042,
+       "SNAME":"Филиал 01042",
+       "SITEID":1042
+    },
+    {
+       "ID":2,
+       "SNAME":"ЦИФРОВОЙ ФИЛИАЛ",
+       "SITEID":1184
+    },
+    {
+       "ID":1136,
+       "SNAME":"ЯШНАБАДСКИЙ ФИЛИАЛ",
+       "SITEID":1136
+    },
+    {
+       "ID":116,
+       "SNAME":"ОБУ \"Чиланзар\"",
+       "SITEID":1158
+    },
+    {
+       "ID":117,
+       "SNAME":"Minibank \"Аския\"",
+       "SITEID":1158
+    },
+    {
+       "ID":118,
+       "SNAME":"Minibank \"Куйлюк\"",
+       "SITEID":1158
+    },
+    {
+       "ID":135,
+       "SNAME":"Университет",
+       "SITEID":1158
+    },
+    {
+       "ID":138,
+       "SNAME":"MINIBANK \"URGANCH BOZOR\"",
+       "SITEID":1158
+    },
+    {
+       "ID":9049,
+       "SNAME":"ТОШКЕНТ Ш., \"КАПИТАЛБАНК\" АТ БАНКИНИНГ",
+       "SITEID":9049
+    },
+    {
+       "SNAME":"BHO \"BUVAYDA\"",
+       "SITEID":1158
+    },
+    {
+       "ID":140,
+       "SNAME":"BHO \"KARSHI\"",
+       "SITEID":1158
+    }
+ ]

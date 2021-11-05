@@ -1,0 +1,186 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, table{
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: rgba(0, 0, 0, 0.05); */
+  background-color: #f6f8fb;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } 
+h3 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } 
+h2 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 20px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+
+
+.select-dropdown,
+.select-dropdown * {
+	margin: 0;
+	padding: 0;
+	position: relative;
+	box-sizing: border-box;
+}
+
+.select-dropdown{
+  margin-bottom: 20px;
+}
+
+.select-dropdown {
+	position: relative;
+	background-color: rgb(230, 230, 230, .6);
+	border-radius: 4px;
+}
+.select-dropdown select {
+	font-size: 1rem;
+	font-weight: bold;
+	max-width: 100%;
+	padding: 12px 24px 12px 10px;
+	border: none;
+	background-color: transparent;
+		-webkit-appearance: none;
+		-moz-appearance: none;
+	appearance: none;
+}
+.select-dropdown select:active, .select-dropdown select:focus {
+	outline: none;
+	box-shadow: none;
+}
+
+.select-dropdown:after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	right: 8px;
+	width: 0;
+	height: 0;
+	margin-top: -2px;
+	border-top: 5px solid #aaa;
+	border-right: 5px solid transparent;
+	border-left: 5px solid transparent;
+}
+
+.exchange_rates{
+  max-width: 450px;
+  width: 450px;
+  background-color: #fff;
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.exchange_rates__logo{
+  max-width: 200px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 30px 0;
+}
+
+.exchange_rates__table{
+  width: 100%;
+  text-align: left;
+  border-collapse: inherit;
+  border-spacing: 0;
+  font-size: 16px;
+}
+
+.exchange_rates__img{
+  max-width: 20px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.exchange_rates__label{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.exchange_rates__table_wrap{
+  position: relative;
+}
+
+.exchange_rates__table_wrap .loading{
+  opacity: 0;
+  transition: all .4s ease-in-out;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.exchange_rates__table_wrap--loading{
+  opacity: .6;
+}
+
+.exchange_rates__table_wrap--loading .loading{
+  opacity: 1;
+}
+
+.exchange_rates__label--strong{
+  font-weight: bold;
+}
+
+.exchange_rates__thead{
+  background: rgba(210, 228, 255, .6)
+}
+
+.exchange_rates__table th{
+  padding: 10px 10px;
+}
+
+.exchange_rates__table th:first-child{
+  border-radius: 5px 0 0 0;
+}
+
+.exchange_rates__table th:last-child{
+  border-radius: 0 5px 0 0;
+}
+
+.exchange_rates__table td{
+  padding: 6px 10px;
+  font-size: 15px;
+}
+
+
+.exchange_rates__table tr:nth-child(even) td{
+  background: rgba(210, 228, 255, .3)
+}

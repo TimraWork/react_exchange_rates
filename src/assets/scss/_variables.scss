@@ -1,0 +1,21 @@
+$accent: #ffd01e;
+$text: #1a1a1a;
+// $text: #59597C;
+// $text_gray: rgb(130, 145, 169);
+$text_gray: #a5a5a5;
+$blue: #116DE3;
+$light_blue: #D2E4FF;
+$green: #00C48C;
+$red: #F22929;
+$purple: #8090FE;
+$gray: #d3d3d3;
+
+$overlay: rgba(31, 24, 24, 0.2);
+// $overlay: rgba($accent, 0.4);
+
+@function rem($px) {
+	@return $px / 16px + 0rem;
+	@return $px;
+}
+
+$radius: rem(12px);
