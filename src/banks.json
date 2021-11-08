@@ -15,43 +15,36 @@
        "SITEID":1158
     },
     {
-       "   ":4,
        "ID":127,
        "SNAME":"Minibank \"TO'RTKO'L YANGIBOZOR\"",
        "SITEID":1158
     },
     {
-       "   ":5,
        "ID":128,
        "SNAME":"Minibank \"BERUNIY\"",
        "SITEID":1158
     },
     {
-       "   ":6,
        "ID":129,
        "SNAME":"Minibank \"MANG'IT\"",
        "SITEID":1158
     },
     {
-       "   ":7,
        "ID":130,
        "SNAME":"Minibank \"KARVON\"",
        "SITEID":1158
     },
     {
-       "   ":8,
        "ID":131,
        "SNAME":"Minibank \"LYABI XAVUZ\"",
        "SITEID":1158
     },
     {
-       "   ":9,
        "ID":132,
        "SNAME":"Minibank \"TO'QIMACHI\"",
        "SITEID":1158
     },
     {
-       "   ":10,
        "ID":134,
        "SNAME":"Minibank \"MARGILON\"",
        "SITEID":1158
@@ -242,6 +235,7 @@
        "SITEID":9049
     },
     {
+       "ID":139,
        "SNAME":"BHO \"BUVAYDA\"",
        "SITEID":1158
     },
