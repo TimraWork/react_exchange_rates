@@ -40,7 +40,7 @@ function App() {
           <h1>Курсы Валют</h1>
           <div className="select-dropdown">
             <select name="course" className="select" onChange={onSelectChange}>
-              {banks.map((el, idx) => <option key={idx} value={el.ID}>{el.SNAME}</option>)}
+              {banks.map((el, idx) => <option key={idx} value={el.SITEID}>{el.SNAME}</option>)}
             </select>
           </div>
 
