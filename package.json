@@ -2,7 +2,7 @@
   "name": "exchange_rates_lending",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://m.bank24.uz:2713",
+  "proxy": "https://191.168.6.78:2713/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",

@@ -8,19 +8,33 @@ import logo from "./assets/img/logo.svg";
 
 export const formatBalance = (balance) =>  balance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " ");
 
+// https://m.bank24.uz:2713
+// export const PROD_API = "https://rates.kapitalbank.uz";
+export const PROD_API = "https://191.168.6.78:2713";
+
+var https = require('https')
+
+// At instance level
+const instance = axios.create({
+  // baseURL: PROD_API,
+  httpsAgent: new https.Agent({ 
+    rejectUnauthorized: false
+  })
+});
+
 function App() {
   const {requestStatus, sendRequest, removeStatusData } = useRequest();
   const [data, setData] = useState([]);
 
   const onSelectChange = (e) => {
     sendRequest(
-      axios.post('/Mobile.svc/GetCoursesB2', { "tobo": e.target.value })
+      instance.post('/Mobile.svc/GetCoursesB2', { "tobo": e.target.value })
     );
   }
 
   useEffect(() => {
     sendRequest(
-      axios.post('/Mobile.svc/GetCoursesB2', { "tobo": banks[0].ID })
+      instance.post('/Mobile.svc/GetCoursesB2', { "tobo": banks[0].ID })
     );
 
     return () => { removeStatusData(); }
@@ -40,7 +54,7 @@ function App() {
           <h1>Курсы Валют</h1>
           <div className="select-dropdown">
             <select name="course" className="select" onChange={onSelectChange}>
-              {banks.map((el, idx) => <option key={idx} value={el.SITEID}>{el.SNAME}</option>)}
+              {banks.map((el, idx) => <option key={idx} value={el.ID}>{el.SNAME}</option>)}
             </select>
           </div>
 
